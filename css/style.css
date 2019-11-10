@@ -1,3 +1,4 @@
+/* applies border-box to all content */
 *, *:before, *:after {
   box-sizing: border-box;
 }
@@ -26,7 +27,7 @@ nav {
 }
 
 .restaurant-list {
-  padding-top: 40px;
+  padding-top: 45px;
   width: 100%;
   background-color: #DEDEDE;
 }
@@ -37,7 +38,6 @@ nav {
   width: 100%;
   padding-top: 10px;
   padding-bottom: 10px;
-  /* background-color: yellow; */
 }
 
 /* hover color */
@@ -48,7 +48,6 @@ nav {
 .content  {
   padding-left: 15px;
   display: inline-block;
-  /* background-color: red; */
 }
 
 /* h1 content styling */
@@ -64,5 +63,4 @@ h1 {
   float: right;
   margin-top: 7px;
   font-size: 0.8em;
-
 }
