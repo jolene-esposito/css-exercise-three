@@ -1,3 +1,7 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
 
 body {
   background-color: #333;
@@ -15,7 +19,7 @@ nav {
   margin: 0 auto;
   padding: 10px 0 15px 15px;
   position: fixed;
-  width: 405px;
+  width: 420px; 
   background-color: #000000;
 }
 
